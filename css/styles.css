@@ -14,6 +14,7 @@ i.menu-btn {
   top: 20px;
   right: 20px;
   color: #f0f6da;
+  letter-spacing: 1px;
   background-color: rgba(0, 152, 79, 0.8);
   padding: 16px;
   cursor: pointer;
@@ -68,16 +69,16 @@ header {
   text-align: center;
 }
 
-header > .logo {
+header > #logo {
   letter-spacing: 3px;
   padding-top: 200px;
 }
 
-header > .logo > h1 {
+header > #logo > h1 {
   font-size: 40px;
 }
 
-header > .logo > h3 {
+header > #logo > h3 {
   font-size: 24px;
   font-weight: 400;
   padding-top: 16px;
@@ -94,6 +95,59 @@ main > h2 {
   font-size: 32px;
   letter-spacing: 1px;
   margin: 80px 0 16px;
+}
+
+main > .application {
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main > .application > div {
+  background-color: #fffff9;
+  border: solid 1px rgba(171, 177, 173, 0.5);
+  height: calc(50% - 80px);
+  width: calc(50% - 76px);
+  padding: 16px;
+  margin: 20px;
+}
+
+main > .application > div > a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(0, 152, 79, 0.8);
+  font-weight: 700;
+}
+
+main > .application > div > .app-box {
+  display: flex;
+  height: calc(100% - 20px);
+}
+
+main > .application > div > .app-box > article {
+  width: 50%;
+  padding: 16px 8px 0;
+}
+
+main > .application > div > .app-box > article#appimage1 {
+  background-image: url(../images/FURIMASample68m.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 16px;
+}
+
+main > .application > div > .app-box > article#appimage2 {
+  background-image: url(../images/have_a_niceday.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 16px;
+}
+
+main > .application > div > .app-box > article > p {
+  padding: 8px;
 }
 
 main > .profile {
@@ -134,51 +188,6 @@ main > .profile > div > .prof-box > article#its-me {
 
 main > .profile > div > .prof-box > article > p {
   padding: 16px 0;
-}
-
-main > .application {
-  height: 800px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-main > .application > div {
-  background-color: #fffff9;
-  border: solid 1px rgba(171, 177, 173, 0.5);
-  height: calc(50% - 80px);
-  width: calc(50% - 76px);
-  padding: 16px;
-  margin: 20px;
-}
-
-main > .application > div > a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: rgba(0, 152, 79, 0.8);
-  font-weight: 700;
-}
-
-main > .application > div > .app-box {
-  display: flex;
-  height: calc(100% - 20px);
-}
-
-main > .application > div > .app-box > article {
-  width: 50%;
-  padding: 16px 8px 0;
-}
-
-main > .application > div > .app-box > article#appimage {
-  background-image: url(../images/have_a_niceday.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-right: 16px;
-}
-
-main > .application > div > .app-box > article > p {
-  padding: 8px;
 }
 
 /* footer */
