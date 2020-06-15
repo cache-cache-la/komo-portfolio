@@ -130,7 +130,7 @@ main > .application > div > .app-box > article {
   padding: 16px 8px 0;
 }
 
-main > .application > div > .app-box > article > a {
+main > .application > div > .app-box > article > a#github {
   text-decoration: none;
   color:rgba(0, 152, 79, 0.8);
 }
