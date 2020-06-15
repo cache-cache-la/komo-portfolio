@@ -130,11 +130,6 @@ main > .application > div > .app-box > article {
   padding: 16px 8px 0;
 }
 
-main > .application > div > .app-box > article > a#github {
-  text-decoration: none;
-  color:rgba(0, 152, 79, 0.8);
-}
-
 main > .application > .app1 > .app-box > article#appimage1 {
   background-image: url(../images/FURIMASample68m.png);
   background-size: contain;
@@ -143,12 +138,22 @@ main > .application > .app1 > .app-box > article#appimage1 {
   padding-right: 16px;
 }
 
+main > .application > div > .app-box > article#appimage1 > a {
+  text-decoration: none;
+  color:rgba(0, 152, 79, 0.8);
+}
+
 main > .application > .app2 > .app-box > article#appimage2 {
   background-image: url(../images/have_a_niceday.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 16px;
+}
+
+main > .application > div > .app-box > article#appimage2 > a {
+  text-decoration: none;
+  color:rgba(0, 152, 79, 0.8);
 }
 
 main > .application > div > .app-box > article > p {
