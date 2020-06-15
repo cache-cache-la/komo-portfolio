@@ -130,6 +130,11 @@ main > .application > div > .app-box > article {
   padding: 16px 8px 0;
 }
 
+main > .application > div > .app-box > article > a {
+  text-decoration: none;
+  color:rgba(0, 152, 79, 0.8);
+}
+
 main > .application > .app1 > .app-box > article#appimage1 {
   background-image: url(../images/FURIMASample68m.png);
   background-size: contain;
